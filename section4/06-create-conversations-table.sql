@@ -3,4 +3,4 @@ CREATE TABLE conversations (
   employer_name VARCHAR(250),
   message TEXT,
   date_sent TIMESTAMP
-);
+)
