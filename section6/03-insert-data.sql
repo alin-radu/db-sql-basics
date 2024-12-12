@@ -8,8 +8,8 @@
 --   ('Teststreet', '1', 3),
 --   ('My street', '101', 2);
 
-INSERT INTO users (first_name, last_name, email, address_id)
-VALUES 
-  ('Max', 'Schwarz', 'max@test.com', 2),
-  ('Manuel', 'Lorenz', 'manu@test.com', 4),
-  ('Julie', 'Barnes', 'julie@barnes.com', 3);
+-- INSERT INTO users (first_name, last_name, email, address_id)
+-- VALUES 
+--   ('Max', 'Schwarz', 'max@test.com', 2),
+--   ('Manuel', 'Lorenz', 'manu@test.com', 4),
+--   ('Julie', 'Barnes', 'julie@barnes.com', 3);

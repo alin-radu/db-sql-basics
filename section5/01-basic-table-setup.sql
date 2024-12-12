@@ -1,4 +1,9 @@
--- CREATE DATABASE personal_db_sales_example
+-- CREATE DATABASE personal_db_sales_example;
+
+-- DROP DATABASE personal_db_sales_example;
+
+-- DROP DATABASE personal_db_online_shop;
+
 
 -- CREATE TABLE sales(
 --   id INT PRIMARY KEY AUTO_INCREMENT,

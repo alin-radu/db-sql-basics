@@ -1,1 +1,1 @@
-CREATE DATABASE relations;
+CREATE DATABASE personal_db_relations;
