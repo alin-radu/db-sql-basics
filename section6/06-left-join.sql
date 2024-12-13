@@ -1,4 +1,4 @@
-SELECT * 
+SELECT a.street, u.last_name, c.name
 FROM addresses AS a
-LEFT JOIN users AS u ON a.id = u.address_id
+LEFT JOIN users AS u ON u.address_id = a.id
 LEFT JOIN cities AS c ON c.id = a.city_id;
