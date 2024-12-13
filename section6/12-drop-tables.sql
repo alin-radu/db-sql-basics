@@ -2,6 +2,8 @@
 -- DROP TABLE users;
 -- DROP TABLE addresses;
 
+-- DROP DATABASE personal_db_relations
+
 -- SELECT TABLE_NAME, ENGINE 
 -- FROM information_schema.TABLES 
 -- WHERE TABLE_SCHEMA = 'personal_db_relations';
