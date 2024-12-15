@@ -1,0 +1,6 @@
+-- SELECT * FROM users
+-- WHERE salary > 12900;
+
+EXPLAIN ANALYZE
+SELECT * FROM users
+WHERE salary > 12900;
