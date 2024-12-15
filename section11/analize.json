@@ -1,3 +1,0 @@
-{
-  "EXPLAIN": "-> Filter: (users.salary > 12900)  (cost=0.85 rows=2) (actual time=0.0539..0.062 rows=2 loops=1)\n    -> Table scan on users  (cost=0.85 rows=6) (actual time=0.0488..0.0584 rows=6 loops=1)\n"
-}
