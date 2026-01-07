@@ -1,3 +1,3 @@
--- CREATE DATABASE talently;
+-- CREATE DATABASE IF NOT EXISTS talently;
 
--- DROP DATABASE personal_db_talently;
+-- DROP DATABASE talently;
