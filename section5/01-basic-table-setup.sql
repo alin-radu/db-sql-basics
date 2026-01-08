@@ -1,4 +1,4 @@
--- CREATE DATABASE personal_db_sales_example;
+-- CREATE DATABASE mysql_course_db IF NOT EXISTS;
 
 -- DROP DATABASE personal_db_sales_example;
 
@@ -8,6 +8,17 @@
 -- CREATE TABLE sales(
 --   id INT PRIMARY KEY AUTO_INCREMENT,
 --   date_created DATE DEFAULT (CURRENT_DATE),
+--   date_fulfilled DATE,
+--   customer_name VARCHAR(300) NOT NULL,
+--   product_name VARCHAR(300) NOT NULL,
+--   volume NUMERIC(10, 3) NOT NULL CHECK(volume >= 0),
+--   is_recurring BOOLEAN DEFAULT FALSE,
+--   is_disputed BOOLEAN DEFAULT FALSE
+-- );
+
+-- CREATE TABLE sales(
+--   id INT PRIMARY KEY AUTO_INCREMENT,
+--   date_created DATE DEFAULT(CURRENT_DATE),
 --   date_fulfilled DATE,
 --   customer_name VARCHAR(300) NOT NULL,
 --   product_name VARCHAR(300) NOT NULL,
