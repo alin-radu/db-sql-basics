@@ -1,12 +1,27 @@
+-- “Give me users that have addresses”
 -- SELECT
 --   *
 -- FROM
 --   users AS u
 --   INNER JOIN addresses AS a ON u.address_id = a.id;
 -- 
-SELECT
-  u.first_name,
-  a.street
-FROM
-  users AS u
-   JOIN users AS u ON u.address_id = a.id;
+-- “Give me addresses that are used by users”
+-- SELECT
+--   *
+-- FROM
+--   addresses AS a
+--   INNER JOIN users AS u ON u.address_id = a.id;
+-- 
+-- “Give me ALL users, and their address if they have one.”
+-- SELECT
+-- *
+-- FROM
+--   users AS u
+--    LEFT JOIN addresses AS a ON u.address_id = a.id;
+-- 
+-- “Give me ALL addresses, and the users that reference them.”
+-- SELECT
+-- *
+-- FROM
+--   addresses AS a
+--    LEFT JOIN users AS u ON u.address_id = a.id;

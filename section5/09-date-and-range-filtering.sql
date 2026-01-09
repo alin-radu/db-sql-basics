@@ -1,4 +1,4 @@
--- SELECT * from sales;
+SELECT * from sales;
 
 -- SELECT * FROM sales
 -- WHERE date_created > '2020-02-29' AND date_created < '2022-05-01';

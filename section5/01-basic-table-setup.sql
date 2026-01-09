@@ -1,4 +1,6 @@
--- CREATE DATABASE mysql_course_db IF NOT EXISTS;
+CREATE DATABASE DATABASE IF NOT EXISTS mysql_course_db;
+
+-- DROP DATABASE mysql_course_db;
 
 -- DROP DATABASE personal_db_sales_example;
 

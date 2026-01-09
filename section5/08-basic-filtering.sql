@@ -3,7 +3,7 @@
 -- FROM
 --   sales
 -- WHERE
---   volume > 1000;
+--   volume > 1000 AND date_fulfilled is NULL;
 
 -- SELECT
 --   *
@@ -13,5 +13,10 @@
 --   is_recurring IS TRUE;
 
 
-SELECT * FROM sales
-WHERE (is_disputed IS TRUE) AND (volume > 5000);
+SELECT
+  *
+FROM
+  sales
+WHERE
+  (is_disputed IS TRUE)
+  AND (volume > 5000);

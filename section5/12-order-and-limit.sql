@@ -16,3 +16,8 @@
 -- ORDER BY volume DESC
 -- LIMIT 5
 -- OFFSET 3;
+
+SELECT * FROM SALES 
+WHERE is_disputed IS FALSE
+ORDER BY volume DESC
+LIMIT 3;
