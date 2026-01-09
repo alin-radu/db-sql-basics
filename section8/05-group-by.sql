@@ -1,6 +1,6 @@
 -- SELECT
 --   booking_date,
---   SUM(num_guests)
+--   SUM(num_guests) AS num_guest
 -- FROM
 --   bookings
 -- GROUP BY
@@ -15,14 +15,15 @@
 -- GROUP BY
 --   p.name;
 -- 
-SELECT
-  p.name,
-  b.booking_date,
-  SUM(b.num_guests),
-  ROUND(AVG(amount_tipped), 2)
-FROM
-  payment_methods AS p
-  INNER JOIN bookings AS b ON p.id = b.payment_id
-GROUP BY
-  p.name,
-  b.booking_date;
+-- SELECT
+--   p.name,
+--   b.booking_date,
+--   SUM(b.num_guests),
+--   ROUND(AVG(amount_tipped), 2)
+-- FROM
+--   payment_methods AS p
+--   INNER JOIN bookings AS b ON p.id = b.payment_id
+-- GROUP BY
+--   p.name,
+--   b.booking_date
+-- ORDER BY booking_date ASC;

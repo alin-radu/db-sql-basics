@@ -1,6 +1,3 @@
--- DROP TABLE payment_methods;
--- DROP TABLE TABLES
--- 
 CREATE TABLE payment_methods (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(200)
